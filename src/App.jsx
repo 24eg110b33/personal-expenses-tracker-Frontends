@@ -6,7 +6,7 @@ import {
   AlertCircle, LoaderCircle, TrendingUp, PiggyBank, Menu, X
 } from 'lucide-react';
 
-const API_URL = (import.meta.env.VITE_API_URL || 'https://personal-expenses-tracker-backend-2.onrender.com').replace(/\/+$/, '');
+const API_URL = (import.meta.env.VITE_API_URL || 'https://personal-expenses-tracker-backend-2.onrender.com/api').replace(/\/+$/, '');
 const CATEGORIES = ['Food', 'Travel', 'Shopping', 'Education', 'Bills', 'Entertainment', 'Health', 'Other'];
 const CATEGORY_ICONS = {
   Food: Utensils, Travel: CarFront, Shopping: ShoppingBag, Education: GraduationCap,
